@@ -14,6 +14,7 @@ This is a **Node.js**, **Express**, and **EJS** leveraging application. The app 
 
 ### Register Page (/register, /registered)
 - Collects the first name, last name and email
+- Uses error handling to validate email field to be structured in pattern example@example.xyz
 
 ### About Page (/about)
 - Lists shop locations
