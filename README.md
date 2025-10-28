@@ -1,4 +1,4 @@
-#Malachi's Thirsty Shop Web App
+# Malachi's Thirsty Shop Web App
 
 This is a **Node.js**, **Express**, and **EJS** leveraging application. The app allows:
 - Browsing the shop website
@@ -7,14 +7,17 @@ This is a **Node.js**, **Express**, and **EJS** leveraging application. The app 
 
 ---
 
-##Features
+## Features
 
-### Home Page
-- Just a simple welcome page.
+### Home Page (/)
+- Just a simple welcome page
 
-## Register Page
+### Register Page (/register, /registered)
 - Collects the first name, last name and email
 
-## About Page
+### About Page (/about)
 - Lists shop locations
 - Displays shop manager name and address
+
+### Search Page (/search)
+- Search for specific drinks in specific categories
